@@ -2,8 +2,8 @@
 
 /* global styles */
 * {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: gray;
+    font-family: comic 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(183, 180, 180);
     border: burlywood;
 }
 
@@ -12,6 +12,10 @@
 h1 {
     color: deeppink;
 }
+
+pre {
+    font-family: 'Courier New', Courier, monospace;
+}
 /* main content section styles */
 
 .grid {
@@ -19,6 +23,7 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 
 /* contact styles */
 

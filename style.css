@@ -1,9 +1,16 @@
 /* wireframe styles */
 
 /* global styles */
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+}
 
 /* header styles */
 
+h1{
+    color: deeppink;
+}
 /* main content section styles */
 
 /* contact styles */

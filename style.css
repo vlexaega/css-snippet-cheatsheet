@@ -4,14 +4,21 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     background-color: gray;
+    border: burlywood;
 }
 
 /* header styles */
 
-h1{
+h1 {
     color: deeppink;
 }
 /* main content section styles */
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 /* contact styles */
 

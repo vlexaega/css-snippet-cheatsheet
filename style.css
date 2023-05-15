@@ -1,99 +1,32 @@
 /* wireframe styles */
 
-/* global styles */
 * {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(183, 180, 180);
-    font-size: medium;
-    /*border: burlywood
-    box-sizing: border-box;
-    border-style:solid;
-    border-width: 1px;*/
+    border: solid 1px red;
 }
 
-h1, h2, p {
-    color: hotpink;
+/* globals */
+
+h1 {
+    font-size: 2.5em; 
+    padding: .5em;
 }
-/*
+
+h2 {
+    font-size: 1em;
+    padding: .5em;
+}
+
 p {
-    display: inline-flexbox;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 2 0 100 px;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-}*/
-
-pre {
-    font-family: 'Courier New', Courier, monospace;
+    padding: .5em;
 }
 
-.card {
-    flex: 1 0 200px;
-    padding: 10px;
+/* header styles */
+header, footer {
+    padding: 1em 10%;
     text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-
-.title{
+}
+/* main styles */
+main {
     display: flex;
-    border-style:outset;
-    border-color: white;
-
 }
-  /*figma code
-.title {
-    position:relative;
-    width: 278px;
-    height: 47px;
-    left: calc(50% - 278px/2 - 0.5px);
-    top: calc(50% - 47px/2 - 102.5px);
-    background: #FFFEFE;
-    mix-blend-mode: normal;
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-
-
-/*
-.content {
-    position: relative;
-    width: 278px;
-    left: 0px;
-    top: 22.02%;
-    bottom: 62.39%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    color: #ED3DF0;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-*/
-
-
-/* main content section styles */
-
-/*.grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 2 0 100 px;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-}*/
-
-
-
-
-/* contact styles */
-
-/* footer styles */ 
+/* footer styles */

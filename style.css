@@ -28,6 +28,15 @@ pre {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.card {
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  /*figma code
 .title {
     position:relative;
     width: 278px;
@@ -40,9 +49,8 @@ pre {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.content {
-    flex: auto;
-}
+
+
 /*
 .content {
     position: relative;

@@ -1,0 +1,130 @@
+:root{
+   --main_color: blueviolet;
+   --sub_color: antiquewhite;
+}
+
+ *{
+    font-size: 16px;
+    background-color: rgb(75, 72, 72);
+    line-height: 1.2em;
+    font-family: serif;
+ }
+
+
+ header{
+display: flex;
+justify-content: center;
+font-size: 200%;
+color: var(--main_color);
+flex-direction: column;
+align-items: center;
+padding: 25px;
+ }
+
+ header p{
+    color:var(--sub_color);
+    font-size: 1rem;
+    padding: 5px;
+ }
+
+ main{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+ }
+ 
+ main h2{
+    border: 2px solid black;
+    font-size: 175%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: .5em;
+    justify-content: center;
+    background-color: var(--sub_color);
+    position: relative;
+    margin-top: -45px;
+    padding: 10px;
+    align-items: center;
+    font-weight: 500;
+    font-family: sans-serif;
+ }
+
+ main section{
+    border: 3px dashed white;
+    padding: 25px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ main section p{
+   padding: 10px;
+   color:var(--main_color)
+ }
+
+ 
+
+ main section  article{
+    border-radius: .5rem;
+     background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0% ,
+    rgba(232, 102, 236, 0.6) 100%
+    );
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    height: 100%;
+    user-select: all;
+    transition: all 0.5s ease-in-out;
+ }
+
+ main section article:hover{
+   font-size: 1.25em;
+ }
+
+ main section article p{
+   background-color: transparent;
+   color:var(--sub_color);
+   padding: 5px;
+ }
+
+
+
+ main section article p:hover{
+   box-shadow: inset 0px 0px 8 px
+   rgba(232, 102, 236, 1), 0 0 15px
+   rgba(232, 102, 236, 1);
+ }
+
+
+ footer {
+    color: var(--main_color);
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    padding: 50px;
+ }
+
+
+
+ @media screen and (min-width: 768px){
+   main{
+      display:grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+   }
+ }
+
+ @media  screen and (min-width: 992px) {
+   main{
+      display:grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+   }
+   
+    
+ }

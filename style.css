@@ -13,7 +13,7 @@
 h1, h2, p {
     color: hotpink;
 }
-
+/*
 p {
     display: inline-flexbox;
     flex-direction: row;
@@ -22,7 +22,7 @@ p {
     padding: 10px;
     border-style: solid;
     border-width: 1px;
-}
+}*/
 
 pre {
     font-family: 'Courier New', Courier, monospace;
@@ -34,8 +34,16 @@ pre {
     text-align: center;
     border-style: solid;
     border-width: 1px;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 
+.title{
+    display: flex;
+    border-style:outset;
+    border-color: white;
+
+}
   /*figma code
 .title {
     position:relative;
